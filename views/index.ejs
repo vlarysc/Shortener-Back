@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    <%= title %>
+  </title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <div>
+    <header>
+      <h1>
+        <%= title %>
+      </h1>
+      <p>Welcome to <%= title %>
+      </p>
+    </header>
+    <form method="POST" action="/new">
+      <div>
+        <input type="text" name="url">
+        <div>
+          <button type="submit">Encurtar</button>
+        </div>
+      </div>
+    </form>
+
+  </div>
+</body>
+
+</html>
